@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color  #fff9f4;
+    color: #333
+    line-height 1.6em;
+}
+
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+header{
+    background-color: #ff5e57;
+    color: white
+    padding: 20px;
+    text-align: centre;
+    font-size: 80ffpx;
+    font weight: bold;
+    letter-spacing: 1px;
+}
+
+.about-section h2{
+    font-size: 60px;
+    color: #a5413c;
+    margin-bottom: 60px;
+}
+
+.aboutcontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.menu-section{
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #fff0e6;
+
+}
+.menu-section h2{
+    font-size: 80px;
+    color: #ff5e57;
+    margin-bottom: 30px;
+}
+.menu-item{
+    display: inline-block;
+  width: 260px;
+  margin: 60px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+  padding: 60px
+}
+.menu-img{
+    width: 200%;
+    height: 160%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.menu-item {
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+.menu-img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.dish-name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+button{
+    background-color: #ff5e57;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #e04843;
+}
+footer{
+    background-color: #ff5e57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+}
+footer a {
+    color: white;
+    text-decoration: unferline;
+    margin: 0 8px;
+}
